@@ -19,7 +19,7 @@
 
 ---
 
-## 岗位职责（与简历一致）
+## 岗位职责
 
 - **工作流模块**：XMind 梳理请假、报销、合同、入职/离职、采购等 **6 类**审批；覆盖串行/并行、会签、驳回/退回、发起人撤回、超时自动审批等节点；复杂分支用**判定表**设计用例；Excel 管理用例，禅道跟踪缺陷。
 - **RBAC 与安全**：菜单/按钮/API 权限正确性；**水平越权**（跨用户/跨租户资源）、**垂直越权**（低权角色调高权接口）；数据权限（仅本部门 / 全部 / 自定义）过滤是否生效。
@@ -49,12 +49,12 @@ Postman · Pytest · Requests · JMeter · MySQL · Allure · XMind · 禅道
 
 ---
 
-## 本仓库代码说明（与简历指标的关系）
+## 本仓库代码说明
 
 - 简历中的 **320+ 功能用例、55+ 自动化接口、JMeter 场景、多角色 Postman 集合** 等为**全项目测试实践**，部分资产在 Excel / Postman / 独立脚本或内网环境。
 - **本仓库**开源 **Pytest + Requests + PyMySQL + Allure** 框架，并落地 **数据库验证类用例**（数据权限、审批后状态、流程发起记录等）及连接性检查，作为与简历中「库表校验、权限专项」对齐的**可运行示例**，可按 **55+ 接口**目标继续扩展 `test_cases/` 与配置。
 
-### 当前自动化用例一览（本仓库）
+### 当前自动化用例一览
 
 | 类型 | 用例数 | 说明 |
 |------|--------|------|
@@ -115,22 +115,4 @@ allure serve reports/allure-results
 
 ---
 
-## GitHub 仓库「About」填写建议（复制即用）
 
-**Short description：**
-
-> RuoYi-Vue-Pro 企业后台测试：工作流+RBAC+数据权限+MySQL 校验；简历口径 320+ 功能用例、55+ 接口自动化；本仓含 Pytest+PyMySQL 可运行框架与库表验证示例
-
-**Website：**
-
-> https://github.com/YunaiV/ruoyi-vue-pro
-
-**Topics 建议：**
-
-`pytest` `requests` `pymysql` `allure` `api-testing` `ruoyi` `flowable` `rbac` `data-permission` `mysql` `automation-testing` `python`
-
----
-
-## License
-
-MIT License - 仅供学习与测试使用
